@@ -1,5 +1,8 @@
 body {
-  background-color: Charcoal;
+  background-color: DeepSlateGray;
   color: GhostWhite;
   font-fanily: Arial-Rounded;
+}
+h1 {
+  text-color: 3px 3px FireBrick;
 }
