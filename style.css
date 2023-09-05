@@ -1,16 +1,23 @@
 body {
-  background-color: steel;
+  background-color: DimGray;
   color: GhostWhite;
   font-fanily: Arial Rounded;
   padding: 25px;
 }
 
 button {
+  background-color: DarkRed;
   border: hidden;
+  border-radius: 25px;
 }
 
 h1 {
   text-color: 5px 5px FireBrick;
+}
+
+iframe {
+  border: hidden;
+  border-radius: 25px;
 }
 
 table {
