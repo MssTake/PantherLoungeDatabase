@@ -19,7 +19,7 @@ button {
   border-radius: 25px;
   cursor: pointer;
   display: inline-block;
-    text-shadow: 2px 2px whitesmoke;
+  text-shadow: 1px 1px whitesmoke;
 }
 
 h1 {
@@ -29,6 +29,7 @@ h1 {
 header {
   text-align: center;
   border-bottom-style: 1em dotted;
+  border-color: 1px whitesmoke;
   padding: 25px;
 }
 
@@ -40,14 +41,18 @@ iframe {
   height: 75%;
 }
 
-tr {
+table, th, tr {
   border-bottom-style: 2px dotted;
-  border-right-style: 2px dotted;
   border-color: 1px whitesmoke;
+  border-right-style: 2px dotted;
   color: whitesmoke;
   padding: 25px;
   opacity: .5;
 }
+
+/*
+align this shit to the right
+*/
 
 .drpdnCntnt {
   display: none;
