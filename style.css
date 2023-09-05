@@ -13,6 +13,13 @@ body {
   margin: 25px;
 }
 
+button {
+  background-color: lightcoral;
+  border-color: white;
+  border-radius: 25px;
+  display: flex;
+}
+
 h1 {
   text-shadow: 2px 2px FireBrick;
 }
@@ -35,4 +42,8 @@ th {
   border-color: white;
   padding: 25px;
   opacity: .5;
+}
+
+.drpdnCntnt {
+  display: none;
 }
