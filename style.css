@@ -1,7 +1,11 @@
 body {
-  background-color: gray;
+  background-color: DeepSlateGray;
   color: GhostWhite;
   font-fanily: Arial-Rounded;
+  padding: 25px;
+}
+button {
+  border: none;
 }
 h1 {
   text-color: 5px 5px FireBrick;
