@@ -1,7 +1,7 @@
 body {
   background-color: DimGray;
   color: White;
-  font-fanily: Arial;
+  font-family: Arial;
   padding: 25px;
 }
 
@@ -20,7 +20,7 @@ header {
 }
 
 iframe {
-  align: center;
+  position: center;
   border: hidden;
   border-radius: 25px;
   width: 75%;
