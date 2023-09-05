@@ -7,7 +7,7 @@ body {
   background-color: DimGray;
   color: White;
   font-family: Arial;
-  padding: 25px;
+  margin: 25px;
 }
 
 button {
@@ -18,11 +18,12 @@ button {
 
 h1 {
   text-shadow: 2px 2px FireBrick;
-  padding: 25px;
 }
 
 header {
+  align: center;
   border-bottom-style: dotted;
+  padding: 25px;
 }
 
 iframe {
@@ -33,12 +34,8 @@ iframe {
   height: 75%;
 }
 
-table {
+th {
   border-color: white;
   padding: 25px;
   opacity: .5;
-}
-
-th {
-  padding: 5px;
 }
