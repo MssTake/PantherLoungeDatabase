@@ -1,3 +1,8 @@
+a {
+  color: light yellow;
+  text-decoration: none;
+}
+
 body {
   background-color: DimGray;
   color: White;
@@ -20,7 +25,7 @@ header {
 }
 
 iframe {
-  position: center;
+  align: center;
   border: hidden;
   border-radius: 25px;
   width: 75%;
@@ -28,7 +33,9 @@ iframe {
 }
 
 table {
-  borer-color: gray;
+  background-color: white;
+  padding: 25px;
+  opacity: .5;
 }
 
 th {
