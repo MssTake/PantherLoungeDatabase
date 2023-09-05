@@ -1,7 +1,7 @@
 body {
   background-color: DimGray;
   color: GhostWhite;
-  font-fanily: Arial Rounded;
+  font-fanily: Arial;
   padding: 25px;
 }
 
@@ -12,16 +12,17 @@ button {
 }
 
 h1 {
-  text-color: 5px 5px FireBrick;
+  text-shadow: 5px 5px FireBrick;
 }
 
 iframe {
   border: hidden;
   border-radius: 25px;
+  width: 75%;
 }
 
 table {
-  color: Ghost White;
+  color: gray;
 }
 
 th {
