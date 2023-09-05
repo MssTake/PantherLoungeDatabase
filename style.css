@@ -3,7 +3,7 @@ a {
 }
 
 a:visited {
-  color: light yellow;
+  color: beige;
 }
 
 body {
@@ -18,13 +18,13 @@ h1 {
 }
 
 header {
-  align: center;
+  text-align: center;
   border-bottom-style: dotted;
   padding: 25px;
 }
 
 iframe {
-  align: center;
+  align-content: center;
   border: hidden;
   border-radius: 25px;
   width: 75%;
