@@ -13,12 +13,6 @@ body {
   margin: 25px;
 }
 
-button {
-  background-color: DarkRed;
-  border: hidden;
-  border-radius: 25px;
-}
-
 h1 {
   text-shadow: 2px 2px FireBrick;
 }
