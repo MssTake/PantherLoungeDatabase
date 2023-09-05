@@ -3,12 +3,12 @@ a {
 }
 
 a:visited {
-  color: beige;
+  color: whitesmoke;
 }
 
 body {
   background-color: DimGray;
-  color: White;
+  color: whitesmoke;
   font-family: Arial;
   margin: 25px;
 }
@@ -19,6 +19,7 @@ button {
   border-radius: 25px;
   cursor: pointer;
   display: inline-block;
+    text-shadow: 2px 2px whitesmoke;
 }
 
 h1 {
@@ -27,7 +28,7 @@ h1 {
 
 header {
   text-align: center;
-  border-bottom-style: dotted;
+  border-bottom-style: 1em dotted;
   padding: 25px;
 }
 
@@ -39,9 +40,11 @@ iframe {
   height: 75%;
 }
 
-th {
-  border-color: 1px white;
-  color: White;
+tr {
+  border-bottom-style: 2px dotted;
+  border-right-style: 2px dotted;
+  border-color: 1px whitesmoke;
+  color: whitesmoke;
   padding: 25px;
   opacity: .5;
 }

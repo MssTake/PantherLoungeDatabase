@@ -1,3 +1,5 @@
+// make separate functions with the same element, probably
+
 function drpdn() {
     document.getElementById("drpdn").classList.toggle("show");
 }
