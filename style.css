@@ -16,10 +16,11 @@ h1 {
 }
 
 iframe {
+  align: center;
   border: hidden;
   border-radius: 25px;
-  position: center;
   width: 75%;
+  height: 75%;
 }
 
 table {
