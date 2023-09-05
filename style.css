@@ -17,6 +17,7 @@ button {
   background-color: lightcoral;
   border: none;
   border-radius: 25px;
+  cursor: pointer;
   display: inline-block;
 }
 
@@ -47,4 +48,14 @@ th {
 
 .drpdnCntnt {
   display: none;
+  overflow: auto;
+  position: absolute;
+}
+
+.drpdnCntnt a {
+  display: block;
+}
+
+.show {
+  display: block;
 }
