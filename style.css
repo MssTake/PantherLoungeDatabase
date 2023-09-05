@@ -39,7 +39,8 @@ iframe {
 }
 
 th {
-  border-color: white;
+  border-color: 1px white;
+  color: White;
   padding: 25px;
   opacity: .5;
 }
