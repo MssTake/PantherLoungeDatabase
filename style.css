@@ -16,10 +16,13 @@ body {
 button {
   background-color: lightcoral;
   border: none;
+    border-bottom-style: 2px dotted;
+      border-color: 1px whitesmoke;
   border-radius: 25px;
+      border-right-style: 2px dotted;
   cursor: pointer;
   display: inline-block;
-  text-shadow: 1px 1px whitesmoke;
+  text-shadow: 1px 1px gray;
 }
 
 h1 {
@@ -45,9 +48,8 @@ table, th, tr {
   border-bottom-style: 2px dotted;
   border-color: 1px whitesmoke;
   border-right-style: 2px dotted;
-  color: whitesmoke;
+  color: white;
   padding: 25px;
-  opacity: .5;
 }
 
 /*
