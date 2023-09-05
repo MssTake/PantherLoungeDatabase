@@ -18,6 +18,7 @@ button {
 
 h1 {
   text-shadow: 2px 2px FireBrick;
+  padding: 25px;
 }
 
 header {
@@ -33,7 +34,7 @@ iframe {
 }
 
 table {
-  background-color: white;
+  border-color: white;
   padding: 25px;
   opacity: .5;
 }
