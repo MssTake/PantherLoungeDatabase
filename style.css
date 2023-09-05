@@ -1,17 +1,20 @@
 body {
-  background-color: DARK-GRAY;
+  background-color: steel;
   color: GhostWhite;
-  font-fanily: Arial-Rounded;
+  font-fanily: Arial Rounded;
   padding: 25px;
 }
+
 button {
-  border: none;
+  border: hidden;
 }
+
 h1 {
   text-color: 5px 5px FireBrick;
 }
+
 table {
-  color: GhostWhite;
+  color: Ghost White;
 }
 
 th {
