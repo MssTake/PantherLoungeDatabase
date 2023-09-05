@@ -1,6 +1,6 @@
 body {
   background-color: DimGray;
-  color: GhostWhite;
+  color: White;
   font-fanily: Arial;
   padding: 25px;
 }
@@ -13,6 +13,10 @@ button {
 
 h1 {
   text-shadow: 2px 2px FireBrick;
+}
+
+header {
+  border-bottom-style: dotted;
 }
 
 iframe {
