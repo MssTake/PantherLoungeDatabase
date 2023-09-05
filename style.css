@@ -16,10 +16,10 @@ body {
 button {
   background-color: lightcoral;
   border: none;
-    border-bottom-style: 2px dotted;
-      border-color: 1px whitesmoke;
+  border-bottom-style: 2px dotted;
+  border-color: whitesmoke;
   border-radius: 25px;
-      border-right-style: 2px dotted;
+  border-right-style: 2px dotted;
   cursor: pointer;
   display: inline-block;
   text-shadow: 1px 1px gray;
@@ -31,8 +31,8 @@ h1 {
 
 header {
   text-align: center;
-  border-bottom-style: 1em dotted;
-  border-color: 1px whitesmoke;
+  border-bottom-style: 2em dotted;
+  border-color: whitesmoke;
   padding: 25px;
 }
 
@@ -44,11 +44,13 @@ iframe {
   height: 75%;
 }
 
-table, th, tr {
-  border-bottom-style: 2px dotted;
-  border-color: 1px whitesmoke;
-  border-right-style: 2px dotted;
-  color: white;
+table,
+th,
+tr {
+  border-bottom-style: 25px dotted;
+  border-color: whitesmoke;
+  border-right-style: 25px dotted;
+  color: whitesmoke;
   padding: 25px;
 }
 
