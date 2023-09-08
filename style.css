@@ -11,7 +11,7 @@ body {
   color: whitesmoke;
   display: block;
   font-family: Arial;
-  padding: auto;
+  padding: 65px;
 }
 
 button {
@@ -38,6 +38,7 @@ h1 {
 }
 
 header {
+  text-align: center;
   display: block;
   left: 0;
   margin: auto;
