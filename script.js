@@ -1,4 +1,4 @@
-// make separate functions with the same element, probably
+// header
 
 function drpdn(drop) {
    switch (drop) {
@@ -26,9 +26,11 @@ function drpdn(drop) {
    }
 }
 
-// make multiple dropdown ids for each button
 window.onclick = function (userSelect) {
    if (!userSelect.target.matches("plan" || "m1" || "m2" || "m3" || "m4" || "m5" || "m6")) {
       document.getElementsByClassName("drpdnCntnt").classList.remove('show');
    }
 }
+
+// body
+
