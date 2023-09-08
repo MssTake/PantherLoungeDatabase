@@ -1,11 +1,35 @@
 // make separate functions with the same element, probably
 
 function drpdn() {
-    document.getElementById("drpdn").classList.toggle("show");
+   var btn;
+   switch (document.getElementById(btn)) {
+      case "plan":
+         document.getElementById("plan").classList.toggle("show");
+         break;
+      case "m1":
+         document.getElementById("m1").classList.toggle("show");
+         break;
+      case "m2":
+         document.getElementById("m2").classList.toggle("show");
+         break;
+      case "m3":
+         document.getElementById("m3").classList.toggle("show");
+         break;
+      case "m4":
+         document.getElementById("m4").classList.toggle("show");
+         break;
+      case "m5":
+         document.getElementById("m5").classList.toggle("show");
+         break;
+      case "m6":
+         document.getElementById("m6").classList.toggle("show");
+         break;
+   }
 }
 
+// make multiple dropdown ids for each button
 window.onclick = function (userSelect) {
-   if (!userSelect.target.matches('drpdn')) {
+   if (!userSelect.target.matches("plan" || "m1" || "m2" || "m3" || "m4" || "m5" || "m6")) {
       document.getElementsByClassName("drpdnCntnt").classList.remove('show');
    }
 }
