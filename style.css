@@ -28,10 +28,13 @@ h1 {
 }
 
 header {
-  text-align: center;
   border-bottom-style: 2em dotted;
   border-color: whitesmoke;
   padding: 25px;
+}
+
+header button {
+  text-align: right;
 }
 
 iframe {
@@ -65,5 +68,6 @@ align this shit to the right
 }
 
 .show {
+  text-align: center;
   display: block;
 }
