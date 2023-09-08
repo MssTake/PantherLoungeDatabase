@@ -38,12 +38,13 @@ h1 {
 }
 
 header {
-  text-align: center;
+  background-color: darkred;
   display: block;
   left: 0;
   margin: auto;
   position: fixed;
   right: 0;
+  text-align: center;
   top: 0;
 }
 
@@ -61,6 +62,7 @@ iframe {
 
 p {
   background-color: darkred;
+  border-radius: 25px;
 }
 
 th {
