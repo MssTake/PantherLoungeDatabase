@@ -11,7 +11,7 @@ body {
   color: whitesmoke;
   display: block;
   font-family: Arial;
-  margin: 25%;
+  margin-top: 10%;
 }
 
 button {
@@ -38,12 +38,10 @@ h1 {
 }
 
 header {
-  border-color: whitesmoke;
+  background-color: dimgray;
   display: block;
-  left: 0;
+  padding: 25%;
   position: fixed;
-  right: 0;
-  top: 0;
 }
 
 header button {
@@ -60,6 +58,8 @@ iframe {
 
 p {
   background-color: darkred;
+  border-radius: 25px;
+  padding: 50px;
 }
 
 th {
