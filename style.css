@@ -9,6 +9,7 @@ a:visited {
 body {
   background-color: DimGray;
   color: whitesmoke;
+  display: block;
   font-family: Arial;
   margin: 25px;
 }
