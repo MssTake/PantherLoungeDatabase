@@ -40,6 +40,7 @@ h1 {
 header {
   display: block;
   left: 0;
+  margin: auto;
   position: fixed;
   right: 0;
   top: 0;
