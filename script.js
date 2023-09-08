@@ -1,8 +1,7 @@
 // make separate functions with the same element, probably
 
-function drpdn() {
-   var btn;
-   switch (document.getElementById(btn)) {
+function drpdn(drop) {
+   switch (drop) {
       case "plan":
          document.getElementById("plan").classList.toggle("show");
          break;
