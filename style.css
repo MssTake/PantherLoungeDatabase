@@ -11,6 +11,7 @@ body {
   color: whitesmoke;
   display: block;
   font-family: Arial;
+  padding: auto;
 }
 
 button {
