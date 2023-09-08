@@ -38,9 +38,9 @@ header button {
 }
 
 iframe {
-  position: center;
   border: hidden;
   border-radius: 25px;
+  display: block;
   width: 75%;
   height: 75%;
 }
@@ -51,16 +51,14 @@ th {
   border-right-style: 10px dotted;
   color: whitesmoke;
   padding: 10px;
+  text-align: left;
 }
-
-/*
-align this shit to the right
-*/
 
 .drpdnCntnt {
   display: none;
   overflow: auto;
   position: absolute;
+  z-index: 1;
 }
 
 .drpdnCntnt a {
