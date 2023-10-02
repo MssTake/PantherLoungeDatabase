@@ -1,5 +1,7 @@
 a {
+  color:darkgoldenrod;
   text-decoration: none;
+  text-shadow: 2px 2px firebrick;
 }
 
 a:visited {
@@ -34,7 +36,7 @@ canvas {
 }
 
 h1 {
-  text-shadow: 2px 2px FireBrick;
+  text-shadow: 2px 2px darkgoldenrod;
 }
 
 header {
@@ -42,6 +44,7 @@ header {
   display: block;
   left: 0;
   margin: auto;
+  padding-bottom: 25px;
   position: fixed;
   right: 0;
   text-align: center;
@@ -62,7 +65,8 @@ iframe {
 
 p {
   background-color: darkred;
-  border-radius: 25px;
+  border-radius: 5px;
+  padding: 5px;
 }
 
 th {
