@@ -32,5 +32,4 @@ window.onclick = function (userSelect) {
    }
 }
 
-// body
-
+// make a similar function for FAQ text
