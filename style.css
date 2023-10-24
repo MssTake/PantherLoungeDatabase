@@ -85,14 +85,14 @@ th {
   text-align: left;
 }
 
-.drpdnCntnt {
+.hidden {
   display: none;
   overflow: auto;
   position: absolute;
   z-index: 1;
 }
 
-.drpdnCntnt a {
+.hidden a {
   display: block;
 }
 
