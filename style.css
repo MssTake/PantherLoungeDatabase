@@ -26,17 +26,8 @@ button {
   border-bottom-style: 2px dotted;
   border-right-style: 2px dotted;
   cursor: pointer;
-  display: inline-block;
+  display: inline-flex;
   text-shadow: 1px 1px darkred;
-}
-
-canvas {
-  position: fixed;
-  left: 50%;
-  top: 50%;
-  max-height: 100vh;
-  max-width: 100vw;
-  transform: translate(-50%, -50%);
 }
 
 h1 {
@@ -45,14 +36,11 @@ h1 {
 
 header {
   background-color: darkred;
-  display: block;
-  left: 0;
-  margin: auto;
-  padding-bottom: 25px;
-  position: fixed;
-  right: 0;
-  text-align: center;
-  top: 0;
+  display: inline-flex;
+  margin-bottom: 10px;
+  padding: 25px;
+  position: relative;
+  width: 100%;
 }
 
 header button {
@@ -63,8 +51,8 @@ iframe {
   border: hidden;
   border-radius: 25px;
   display: block;
-  width: 75%;
-  height: 75%;
+  width: 100%;
+  height: 100%;
 }
 
 p {
