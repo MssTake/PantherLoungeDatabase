@@ -73,7 +73,7 @@ h1 {
 }
 
 header h1 {
-  background-image: url("https://i.pinimg.com/originals/ce/17/41/ce1741e58c710778e66ec9fbd79606fb.jpg");
+  background-image: url("backgrounds/bg1.jpg");
   background-repeat: no-repeat;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
