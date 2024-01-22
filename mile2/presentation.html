@@ -11,76 +11,81 @@
 </head>
 
 <header>
-
    <h1>
-      <a href="../index.html">
-         Panther Lounge Database
-      </a>
+      <a href="../index.html"> Panther Lounge Database </a>
    </h1>
 
-   <button onclick="drpdn('plan')" class="drpdn">
-      Plan
-   </button>
-   <div id="plan" class="drpdnCntnt">
-      <a href="plan/plan.html">
-         Plan
-      </a>
-      <a href="plan/presentation.html">
-         Presentation
-      </a>
-   </div>
+   <nav>
+      <button class="drpdn">
+         Plan (Semester 1)
+         <div class="hidden">
+            <a href="../plan1/plan.html"> Plan </a>
+            <a href="../plan1/presentation.html"> Presentation </a>
+         </div>
+      </button>
 
-   <button onclick="drpdn('m1')" class="drpdn">
-      Milestone 1
-   </button>
-   <div id="m1" class="drpdnCntnt">
-      <a href="mile1/requirement.html">
-         Requirement
-      </a>
-      <a href="mile1/design.html">
-         Design
-      </a>
-      <a href="mile1/test.html">
-         Test
-      </a>
-      <a href="mile1/presentation.html">
-         Presentation,
-      </a>
-      <a href="mile1/progEval.html">
-         Progress Evaluation
-      </a>
-   </div>
+      <button class="drpdn">
+         Milestone 1
+         <div class="hidden">
+            <nav>
+               <a href="../mile1/requirement.html"> Requirement </a>
+               <a href="../mile1/design.html"> Design </a>
+               <a href="../mile1/test.html"> Test </a>
+               <a href="../mile1/presentation.html"> Presentation </a>
+               <a href="../mile1/progEval.html"> Progress Evaluation </a>
+            </nav>
+         </div>
+      </button>
 
-   <button onclick="drpdn('m2')" class="drpdn">
-      Milestone 2
-   </button>
-   <div id="m2" class="drpdnCntnt">
-   </div>
+      <button class="drpdn">
+         Milestone 2
+         <div class="hidden">
+            <nav>
+               <a href="presentation.html"> Presentation, </a>
+               <a href="progEval.html"> Progress Evaluation </a>
+            </nav>
+         </div>
+      </button>
 
-   <button onclick="drpdn('m3')" class="drpdn">
-      Milestone 3
-   </button>
-   <div id="m3" class="drpdnCntnt">
-   </div>
+      <button class="drpdn">
+         Milestone 3
+         <div class="hidden">
+            <nav>
+               <a href="../mile3/presentation.html"> Presentation, </a>
+               <a href="../mile3/progEval.html"> Progress Evaluation </a>
+            </nav>
+         </div>
+      </button>
 
-   <button onclick="drpdn('m4')" class="drpdn">
-      Milestone 4
-   </button>
-   <div id="m4" class="drpdnCntnt">
-   </div>
+            <button class="drpdn">
+               Plan (Semester 2)
+               <div class="hidden">
+                  <a href="../plan2/plan.html"> Plan </a>
+                  <a href="../plan2/presentation.html"> Presentation </a>
+               </div>
+            </button>
 
-   <button onclick="drpdn('m5')" class="drpdn">
-      Milestone 5
-   </button>
-   <div id="m5" class="drpdnCntnt">
-   </div>
+      <button class="drpdn">
+         Milestone 4
+         <div class="hidden">
+            <nav></nav>
+         </div>
+      </button>
 
-   <button onclick="drpdn('m6')" class="drpdn">
-      Milestone 6
-   </button>
-   <div id="m6" class="drpdnCntnt">
-   </div>
+      <button class="drpdn">
+         Milestone 5
+         <div class="hidden">
+            <nav></nav>
+         </div>
+      </button>
 
+      <button class="drpdn">
+         Milestone 6
+         <div class="hidden">
+            <nav></nav>
+         </div>
+      </button>
+   </nav>
 </header>
 
 <body>
@@ -89,7 +94,6 @@
       frameborder="0" width="1440" height="839" allowfullscreen="true" mozallowfullscreen="true"
       webkitallowfullscreen="true">
    </iframe>
-
 </body>
 
 </html>
