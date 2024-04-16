@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 var head = [
   "<h1>What is the Panther Lounge?</h1>",
   "<h1>What does it do?</h1>",
@@ -17,4 +18,19 @@ var answer = [
 function question(number) {
   document.getElementById("headers").innerHTML = head[number];
   document.getElementById("answers").innerHTML = answer[number];
+=======
+function question(head, answer) {
+  // hides default header
+  document.getElementById("head0").style.height = "0";
+  document.getElementById("head0").style.display = "none";
+  // hides the map
+  document.getElementById("map").style.height = "0";
+  document.getElementById("map").style.display = "none";
+  // shows the question and answer
+  document.getElementById("headers").hidden = false;
+  document.getElementById("headers").innerHTML =
+    document.getElementById(head).innerHTML;
+  document.getElementById("answers").innerHTML =
+    document.getElementById(answer).textContent;
+>>>>>>> d76bf77 (fixing faq)
 }
