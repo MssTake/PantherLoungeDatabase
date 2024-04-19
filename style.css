@@ -145,3 +145,18 @@ th {
   margin-left: 55%;
   max-width: 40%;
 }
+
+@font-face {
+  font-family: Leap;
+  src: url(assets/Leap.otf);
+}
+
+@font-face {
+  font-family: Galgo;
+  src: url(assets/Galgo.ttf);
+}
+
+@font-face {
+  font-family: Noto Sans Mono;
+  src: url(assets/NotoSansMono-VariableFont_wdth\,wght.ttf);
+}
