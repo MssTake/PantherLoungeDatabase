@@ -51,19 +51,18 @@ div {
 header {
   background-color: #cd5c5c;
   border-bottom: solid;
-  box-shadow: 5px 5px 15px black;
+  box-shadow: 2px 2px 5px;
+  font-family: Leap, sans-serif;
   left: 0;
-  padding-bottom: 20px;
+  padding: 15px;
   position: fixed;
-  text-align: center;
-  transition: 0.5s;
   top: 0;
+  transition: 0.15s;
   width: 100%;
   z-index: 1;
 }
 
 h1 {
-  font-family: Leap, sans-serif;
   font-size: 50px;
   margin-bottom: 10px;
   margin-top: 10px;
