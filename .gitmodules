@@ -1,0 +1,5 @@
+[submodule "PantherLoungeDatabase"]
+	path = PantherLoungeDatabase
+	url = https://github.com/MssTake/PantherLoungeDatabase.github.io.git
+# check syntax with this command:
+# git submodule status
