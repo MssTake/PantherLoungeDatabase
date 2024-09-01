@@ -8,24 +8,15 @@ a {
 }
 
 a:hover {
-<<<<<<< HEAD
-  color: lightcoral;
-=======
   color: #cd5c5c;
->>>>>>> d76bf77 (fixing faq)
 }
 
 body {
   background-color: #cd5c5c;
   display: inline-block;
   font-family: "Trebuchet MS", sans-serif;
-<<<<<<< HEAD
-  margin-top: 175px;
-  min-width: 99.5%;
-=======
   margin-top: 150px;
   min-width: 99%;
->>>>>>> d76bf77 (fixing faq)
 }
 
 button {
@@ -52,10 +43,6 @@ div {
   border-radius: 5px;
   box-shadow: 5px 5px;
   margin-bottom: 10px;
-<<<<<<< HEAD
-  max-width: 95%;
-=======
->>>>>>> d76bf77 (fixing faq)
   padding: 25px;
   transition: 0.5s;
 }
@@ -66,11 +53,7 @@ header {
   box-shadow: 2px 2px 5px;
   font-family: Leap, sans-serif;
   left: 0;
-<<<<<<< HEAD
-  padding: 25px;
-=======
   padding-bottom: 20px;
->>>>>>> d76bf77 (fixing faq)
   position: fixed;
   text-align: center;
   transition: 0.5s;
@@ -81,10 +64,7 @@ header {
 }
 
 h1 {
-<<<<<<< HEAD
-=======
   font-family: Leap, sans-serif;
->>>>>>> d76bf77 (fixing faq)
   font-size: 50px;
   margin-bottom: 10px;
   margin-top: 10px;
@@ -128,28 +108,16 @@ td {
 }
 
 th {
-<<<<<<< HEAD
-  background-color: lightyellow;
-  border: none;
-  border-radius: 10px;
-  padding: 10px;
-=======
   border: 1px;
   border-bottom-style: 10px dotted;
   border-right-style: 10px dotted;
   padding: 10px;
   text-align: left;
->>>>>>> d76bf77 (fixing faq)
 }
 
 .hidden {
   display: none;
-<<<<<<< HEAD
-  height: 0;
-  margin-top: 10px;
-=======
   margin-bottom: 10px;
->>>>>>> d76bf77 (fixing faq)
   padding: 0;
   position: static;
   z-index: 1;
@@ -169,36 +137,12 @@ th {
 }
 
 #answers {
-<<<<<<< HEAD
-  float: left;
   max-width: 50%;
-  width: 55%;
-=======
-  max-width: 50%;
->>>>>>> d76bf77 (fixing faq)
 }
 
 #questions {
   margin-left: 55%;
   max-width: 40%;
-<<<<<<< HEAD
-}
-
-@font-face {
-  font-family: Leap;
-  src: url(assets/Leap.otf);
-}
-
-@font-face {
-  font-family: Galgo;
-  src: url(assets/Galgo.ttf);
-}
-
-@font-face {
-  font-family: Noto Sans Mono;
-  src: url(assets/NotoSansMono-VariableFont_wdth\wght.ttf);
-=======
->>>>>>> d76bf77 (fixing faq)
 }
 
 /* this is one of my browser extensions that,
