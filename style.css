@@ -200,3 +200,9 @@ th {
 =======
 >>>>>>> d76bf77 (fixing faq)
 }
+
+/* this is one of my browser extensions that,
+for some reason, kept popping up on my end for no reason */
+#simplify-jobs-container {
+  display: none;
+}
